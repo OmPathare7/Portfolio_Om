@@ -8,50 +8,54 @@
 }
 body
 {
-
+	position: relative;
 	color: #ededed;
 }
 
 .header
 {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 20px 10%;
-	background: transparent;
+	padding: 5px 0%;
+	background: ghostwhite;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+/*	align-items: center;*/
 	z-index: 100%;
 }
 .logo
 {
 	font-size: 25px;
-	color: #ededed;
+	color: black;
+	margin-left: 30%;
 	text-decoration: none;
 	font-weight: 600;
+	align-items: center;
 }
 .navbar 
 {
-	font-size: 18px;
+	font-size: 20px;
 	color: #ededed;
 	text-decoration: none;
 	font-weight: 500;
 	margin-left: 35px;
+	margin-right:220px;
 	transition: .3s;
+
 }
 
 .navbar a:hover,
 .navbar a.active
 {
-	color: #00abf0;
+	color:#00abf0;
 }
 
 .home
 {
 	height: 100vh;
-	background: url('https://cdn.pixabay.com/photo/2018/03/05/16/41/programming-3201149_1280.png') no-repeat;
+	background: url('https://wallpaperaccess.com/full/383133.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 	display: flex;
